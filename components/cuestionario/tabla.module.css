@@ -1,0 +1,12 @@
+.caretDown:hover {
+  cursor: pointer;
+}
+
+.container {
+  font-size: 0.9rem !important;
+  margin-top: 3rem;
+}
+
+.button {
+  font-size: 0.9rem !important;
+}

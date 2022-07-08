@@ -1,0 +1,50 @@
+.contenedor {
+  position: relative;
+  text-align: center;
+  justify-items: center;
+  margin: 10rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: rgb(187, 136, 0) !important;
+  border: none !important;
+  color: white;
+  height: 2.5rem;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem !important;
+  border-radius: 1rem !important;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: #1e3c70 !important;
+  color: white !important;
+}
+
+@media (max-width: 450px) {
+  .btn {
+    text-align: center;
+    margin-top: 3rem;
+    width: 70%;
+  }
+  .login-input {
+    width: 70%;
+  }
+  .contenedor {
+    position: relative;
+    text-align: center;
+    justify-items: center;
+    margin: 3rem;
+  }
+}

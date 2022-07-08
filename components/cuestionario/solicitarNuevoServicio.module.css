@@ -1,0 +1,12 @@
+.buttonClick {
+  cursor: pointer;
+  text-align: center;
+  width: 12rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 0;
+}
+
+.buttonClick:hover{
+  color: #023da3;
+}
